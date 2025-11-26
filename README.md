@@ -3,35 +3,46 @@
 Gerenciador de tarefas simples para terminal usando [Rich](https://github.com/Textualize/rich). As tarefas ficam guardadas localmente em `tarefas.pkl` no mesmo diretório do script.
 
 ## Funcionalidades
+
 - Listar tarefas pendentes e concluídas.
 - Adicionar tarefas com título e descrição.
 - Marcar tarefas como concluídas.
 - Remover tarefas que não são mais necessárias.
 
 ## Pré-requisitos
+
 - Python 3.10+
 - `pip` instalado
 
 ## Como rodar
+
 1. Clone o repositório:
+
    ```bash
-   git clone https://github.com/<seu-usuario>/mini-projeto-pe.git
+   git clone https://github.com/mr-reinaldo/mini-projeto-pe.git
    cd mini-projeto-pe
    ```
+
 2. Crie e ative um ambiente virtual:
+
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # Windows: .venv\Scripts\activate
    ```
+
 3. Instale as dependências:
+
    ```bash
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
+
 4. Execute o aplicativo:
+
    ```bash
    python tasks.py
    ```
+
    O menu apresenta as opções:
    - `1` Listar tarefas
    - `2` Adicionar tarefa
@@ -40,6 +51,7 @@ Gerenciador de tarefas simples para terminal usando [Rich](https://github.com/Te
    - `0` Sair
 
 ## Capturas de tela
+
 - Menu inicial  
   ![Menu](https://github.com/user-attachments/assets/666b7a70-71de-4c89-a7ae-b0ddea5208aa)
 - Adicionando tarefa  
